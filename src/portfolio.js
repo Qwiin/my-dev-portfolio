@@ -26,8 +26,7 @@ const greeting = {
   subTitle: emoji(
     "A passionate Full Stack Software Developer having an experience of building Web and Mobile applications with TypeScript / Reactjs / Nodejs / Nextjs and some other cool libraries and frameworks."
   ),
-  resumeLink:
-    "", // Set to empty to hide the button
+  resumeLink: "", // Set to empty to hide the button
   displayGreeting: false // Set false to hide this section, defaults to true
 };
 
@@ -136,7 +135,7 @@ const educationInfo = {
         "Modeled magneto-hydrodynamics of the solar corona",
         "Co-designed and built a UAV"
       ]
-    },
+    }
   ]
 };
 
@@ -170,7 +169,7 @@ const workExperiences = {
       role: "Software Engineer II",
       company: "Intuit",
       companylogo: require("./assets/images/Intuit_256x256.avif"),
-      date: "March 2020 - March 2021",
+      date: "March 2020 - March 2021"
       // desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
       // descBullets: [
       //   "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
@@ -181,14 +180,14 @@ const workExperiences = {
       role: "Sr. Software Developer",
       company: "SAP",
       companylogo: require("./assets/images/SAP-Logo.jpeg"),
-      date: "Jan 2017 - March 2019",
+      date: "Jan 2017 - March 2019"
       // desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
     },
     {
       role: "Sr. Software Developer",
       company: "Roambi Inc",
       companylogo: require("./assets/images/roambilogo.png"),
-      date: "May 2008 – August 2014",
+      date: "May 2008 – August 2014"
       // desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
     }
   ]
@@ -211,7 +210,8 @@ const bigProjects = {
     {
       image: require("./assets/images/tetris-screen.png"),
       projectName: "Preact Tetris Clone",
-      projectDesc: "An entirely html-based implementation of Tetris with effects, sounds, and music.  It's mobile friendly too!",
+      projectDesc:
+        "An entirely html-based implementation of Tetris with effects, sounds, and music.  It's mobile friendly too!",
       footerLink: [
         {
           name: "Playable Demo",
@@ -223,7 +223,8 @@ const bigProjects = {
     {
       image: require("./assets/images/ttlive.webp"),
       projectName: "Turbo Tax Live",
-      projectDesc: "Co-developed web platform to allow tax professionals to connect in real time to customers",
+      projectDesc:
+        "Co-developed web platform to allow tax professionals to connect in real time to customers",
       footerLink: [
         {
           name: "Visit Website",
@@ -234,7 +235,8 @@ const bigProjects = {
     {
       image: require("./assets/images/SAC.webp"),
       projectName: "SAP Analytics Cloud",
-      projectDesc: "Cross-platform app client development for desktop, browser, and android;  Custom charting framework using WASM and WebGL",
+      projectDesc:
+        "Cross-platform app client development for desktop, browser, and android;  Custom charting framework using WASM and WebGL",
       footerLink: [
         {
           name: "Visit Website",
@@ -296,7 +298,7 @@ const achievementSection = {
       image: require("./assets/images/pwaLogo.webp"),
       imageAlt: "PWA Logo",
       footerLink: [
-        { name: "Certification", url: "" },
+        {name: "Certification", url: ""},
         {
           name: "Final Project",
           url: "https://pakistan-olx-1.firebaseapp.com/"
@@ -357,9 +359,7 @@ const podcastSection = {
   subtitle: "",
 
   // Please Provide with Your Podcast embeded Link
-  podcast: [
-    ""
-  ],
+  podcast: [""],
   display: false // Set false to hide this section, defaults to true
 };
 
